@@ -1,0 +1,45 @@
+menu {
+    display: flex;
+    gap: 5px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:12px;
+    margin: 0 auto;
+    padding:0;
+    position:absolute;
+    bottom:0px;
+    left:0;
+    right:0;
+    width:fit-content;
+}
+
+menu li {
+    list-style: none;
+    margin:0;
+    padding: 15px 20px;
+    border-radius:5px 5px 0 0;
+    color: #18773e;
+    cursor: pointer;
+    background:#fff;
+}
+
+menu li a {
+    color: black;
+    text-decoration: none;
+}
+
+menu li:hover {
+    background-image: linear-gradient(rgb(0, 170, 255), #fff);
+}
+
+menu li:hover a{
+    color:#fff;
+}
+
+menu li.selected {
+    background: #333;
+}
+
+menu li.selected a {
+    color:#d05959;
+}

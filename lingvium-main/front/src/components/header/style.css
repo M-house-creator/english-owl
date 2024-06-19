@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    background: #91ccff;
+    justify-content: space-between;
+    padding: 30px;
+    background-image: url('./flag.jpg');
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    height:500px;
+    position:relative;
+}
+
+header .LogoGroup {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    gap: 10px;
+    position: absolute;
+    color: #fff;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+header .LogoGroup h1 {
+    display:block;
+    width: 100%;
+    font-size:30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin:0;
+    text-shadow:2px 2px 1px rgba(0,0,0,.3)
+}

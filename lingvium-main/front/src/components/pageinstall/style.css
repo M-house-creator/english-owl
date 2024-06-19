@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+.install {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: oblique;
+  font-variation-settings:
+    "wdth" 100;
+  font-size:25px;
+  }
+  .line2 {
+    width: 75%;
+    height: 8px;
+    background-color: rgb(0, 170, 255);
+    outline: none;
+    border: none;
+    margin: 10px 320px 20px auto;
+}
+.line {
+  width: 75%;
+  height: 8px;
+  background-color: rgb(0, 170, 255);
+  outline: none;
+  border: none;
+  margin: 10px 320px 20px auto;
+}

@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap");
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.work{
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: oblique;
+    font-size: 29px;
+}
